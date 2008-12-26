@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Short SC.7 Skyvan
+December 2008 BARANGER Emmanuel
+************************************************************************
+-->
+
+<PropertyList include="skyvan-base.xml">
+
+  <sim>
+
+    <description>Short SC.7 Skyvan (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>skyvan-yasim</aero>
+
+  </sim>
+    
+</PropertyList>

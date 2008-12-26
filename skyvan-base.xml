@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+
+************************************************************************
+-->
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+   
+    <fuel-fraction>1.0</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/Skyvan/skyvan-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path>Aircraft/Skyvan/Sounds/skyvan-sound.xml</path>
+    </sound>
+
+    <model>
+      <path>Aircraft/Skyvan/Models/skyvan.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model> 
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Short SC.7 Skyvan</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close crew door</desc>
+      </key>
+      <key>
+        <name>D</name>
+        <desc>Open/Close bay</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/skyvan-menu.xml"/>
+
+  </sim>
+
+  <input>
+      <keyboard include="Nasal/skyvan-keyboard.xml"/>
+  </input>
+
+  <controls>
+    <engines>
+      <engine n="0">
+        <magnetos>3</magnetos>
+      </engine>
+      <engine n="1">
+        <magnetos>3</magnetos>
+      </engine>
+    </engines>
+    <gear>
+      <brake-parking>1</brake-parking>
+      <tailwheel-lock type="bool">false</tailwheel-lock>
+    </gear>
+  </controls>
+
+  <engines>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+  </engines>
+  
+  <nasal>
+    <skyvan>
+      <file>Aircraft/Skyvan/Nasal/liveries.nas</file>
+      <file>Aircraft/Skyvan/Nasal/doors.nas</file>
+      <file>Aircraft/Skyvan/Nasal/light.nas</file>
+    </skyvan>
+  </nasal>
+
+</PropertyList>

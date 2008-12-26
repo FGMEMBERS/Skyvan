@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="skyvan-jsbsim-cnf.xml"> -->
+<PropertyList include="skyvan-yasim-cnf.xml">
+
+  <sim>
+    <description>Short SC.7 Skyvan</description>
+    <author>BARANGER Emmanuel</author>
+  </sim>
+
+</PropertyList>
+
