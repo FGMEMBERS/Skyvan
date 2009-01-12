@@ -91,6 +91,7 @@
       <file>Aircraft/Skyvan/Nasal/liveries.nas</file>
       <file>Aircraft/Skyvan/Nasal/doors.nas</file>
       <file>Aircraft/Skyvan/Nasal/light.nas</file>
+      <file>Aircraft/Skyvan/Nasal/immat.nas</file>
     </skyvan>
   </nasal>
 
