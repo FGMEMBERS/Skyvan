@@ -12,6 +12,8 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <crank>
@@ -31,6 +33,8 @@
         <property>/engines/engine[0]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <crank>
@@ -44,6 +48,8 @@
         <property>/engines/engine[0]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <engine>
@@ -70,6 +76,8 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </engine>
 
     <engine>
@@ -96,6 +104,8 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </engine>
 
     <!-- Moteur 2 -->
@@ -106,6 +116,8 @@
       <volume>
         <offset>-0.4</offset>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <crank>
@@ -125,6 +137,8 @@
         <property>/engines/engine[1]/cranking</property>
         <factor>1.0</factor>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <crank>
@@ -138,6 +152,8 @@
         <property>/engines/engine[1]/running</property>
         <factor>1.0</factor>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </crank>
 
     <engine>
@@ -164,6 +180,8 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </engine>
 
     <engine>
@@ -190,6 +208,8 @@
         <min>0.0</min>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </engine>
 
     <rumble>
@@ -208,6 +228,8 @@
         <type>log</type>
         <factor>0.25</factor>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </rumble>
 
     <gear>
@@ -215,6 +237,8 @@
       <mode>in-transit</mode>
       <path>Aircraft/Skyvan/Sounds/gear-up.wav</path>
       <property>/gear/gear[0]/position-norm</property>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </gear>
 
     <gear>
@@ -226,6 +250,8 @@
          <value>0.9</value>
        </greater-than>
      </condition>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </gear>
 
     <squeal>
@@ -259,6 +285,8 @@
         <offset>0.5</offset>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </squeal>
  
     <flap>
@@ -269,6 +297,8 @@
       <volume>
         <factor>0.2</factor>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </flap>
 
     <wind>
@@ -288,6 +318,8 @@
         <offset>0.5</offset>
         <max>1.0</max>
       </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </wind>
  
     <stall>
@@ -299,6 +331,8 @@
         <property>/sim/alarms/stall-warning</property>
         <max>1.0</max>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </stall>
   
     <door>
@@ -313,6 +347,8 @@
       <volume>
         <factor>0.4</factor>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </door>
 
     <door>
@@ -327,6 +363,8 @@
       <volume>
         <factor>0.4</factor>
       </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
     </door>
 
     <rain>
