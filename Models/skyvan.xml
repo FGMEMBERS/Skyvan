@@ -40,6 +40,7 @@
     <object-name>porteD</object-name>
     <object-name>axeA</object-name>
     <object-name>axes</object-name>
+    <object-name>trous</object-name>
 
     <!-- Transparence -->
     <object-name>vitres</object-name>
@@ -54,7 +55,7 @@
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>glass_shader.png</texture>
+    <texture>Aircraft/Generic/Effects/CubeCrosses/blue_sky_tx.png</texture>
     <object-name>vitres</object-name>
     <object-name>vitreG</object-name>
     <object-name>vitreD</object-name>
@@ -99,6 +100,7 @@
     <object-name>porteD</object-name>
     <object-name>axeA</object-name>
     <object-name>axes</object-name>
+    <object-name>trous</object-name>
 
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
@@ -132,6 +134,23 @@
       <shininess-prop>shininess</shininess-prop>
     </shininess>
 -->
+  </animation>
+
+  <!-- Une ombre pour OSG -->
+  <model>
+    <name>shadowOSG</name>
+    <path>Aircraft/Skyvan/Models/shadow.xml</path>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>shadowOSG</object-name>
+    <condition>
+      <equals>
+        <property>sim[0]/rendering/shadows-ai</property>
+        <value>true</value>
+      </equals>
+    </condition>
   </animation>
 
   <!-- Interieur -->
@@ -576,14 +595,23 @@
       <z-m>  1.097 </z-m>
     </offsets>
   </model>
-<!--
+
   <model>
-    <path>Aircraft/Skyvan/Models/light/Whitelight.xml</path>
+    <path>Aircraft/Skyvan/Models/light/StrobeWhite.xml</path>
     <offsets>
-      <x-m> -2.574 </x-m>
-      <y-m>  0.074 </y-m>
-      <z-m> -0.643 </z-m>
+      <x-m> -1.742 </x-m>
+      <y-m> -9.879 </y-m>
+      <z-m>  1.097 </z-m>
     </offsets>
   </model>
--->
+
+  <model>
+    <path>Aircraft/Skyvan/Models/light/StrobeWhite.xml</path>
+    <offsets>
+      <x-m> -1.742 </x-m>
+      <y-m>  9.879 </y-m>
+      <z-m>  1.097 </z-m>
+    </offsets>
+  </model>
+
 </PropertyList>

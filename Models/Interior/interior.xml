@@ -26,7 +26,7 @@
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>shader.png</texture>
+    <texture>Aircraft/Generic/Effects/CubeCrosses/blue_sky_tx.png</texture>
     <object-name>intvitres</object-name>
     <object-name>intvitreG</object-name>
     <object-name>intvitreD</object-name>
