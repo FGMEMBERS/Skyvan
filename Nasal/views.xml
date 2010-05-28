@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <chase-distance-m type="double" archive="y">-30.0</chase-distance-m>
+  <chase-distance-m type="double" archive="y"> -20 </chase-distance-m>
 
   <view n="100">
     <name>Co pilote</name>
@@ -13,11 +13,11 @@
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
       <pitch-offset-deg>-5</pitch-offset-deg>
-      <x-offset-m archive="y">  0.300 </x-offset-m>	<!-- Right -->
-      <y-offset-m archive="y">  0.192 </y-offset-m>	<!-- Up    -->
-      <z-offset-m archive="y"> -4.452 </z-offset-m>	<!-- Back  -->
-      <pitch-offset-deg> -10.000 </pitch-offset-deg>
-      <default-field-of-view-deg>50</default-field-of-view-deg>
+      <x-offset-m archive="y">  0.500 </x-offset-m>	<!-- Right -->
+      <y-offset-m archive="y">  0.070 </y-offset-m>	<!-- Up    -->
+      <z-offset-m archive="y"> -4.288 </z-offset-m>	<!-- Back  -->
+      <pitch-offset-deg> -5 </pitch-offset-deg>
+      <default-field-of-view-deg> 50 </default-field-of-view-deg>
     </config>
   </view>
 
@@ -29,22 +29,22 @@
       <from-model type="bool">true</from-model>
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-      <default-field-of-view-deg type="double">30</default-field-of-view-deg>
-      <pitch-offset-deg>-5</pitch-offset-deg>
       <x-offset-m archive="y"> 0.000 </x-offset-m> <!--Right-->
       <y-offset-m archive="y"> 5.032 </y-offset-m> <!--Up-->
       <z-offset-m archive="y"> 8.535 </z-offset-m> <!--Back-->
+      <pitch-offset-deg> -5 </pitch-offset-deg>
+      <default-field-of-view-deg type="double"> 50 </default-field-of-view-deg>
     </config>
   </view>
 
   <view n="0">
     <internal archive="y">true</internal>
     <config>
-      <x-offset-m archive="y"> -0.300 </x-offset-m>	<!-- Right -->
-      <y-offset-m archive="y">  0.192 </y-offset-m>	<!-- Up    -->
-      <z-offset-m archive="y"> -4.452 </z-offset-m>	<!-- Back  -->
-      <pitch-offset-deg> -15.000 </pitch-offset-deg>
-      <default-field-of-view-deg>50</default-field-of-view-deg>
+      <x-offset-m archive="y"> -0.500 </x-offset-m>	<!-- Right -->
+      <y-offset-m archive="y">  0.070 </y-offset-m>	<!-- Up    -->
+      <z-offset-m archive="y"> -4.288 </z-offset-m>	<!-- Back  -->
+      <pitch-offset-deg> -5 </pitch-offset-deg>
+      <default-field-of-view-deg> 50 </default-field-of-view-deg>
     </config>
   </view>
 

@@ -53,26 +53,6 @@
   </animation>
 
   <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/CubeCrosses/blue_sky_tx.png</texture>
-    <object-name>vitres</object-name>
-    <object-name>vitreG</object-name>
-    <object-name>vitreD</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>vitres</object-name>
-    <object-name>propdiscG</object-name>
-    <object-name>propblurG</object-name>
-    <object-name>propdiscD</object-name>
-    <object-name>propblurD</object-name>
-    <object-name>vitreG</object-name>
-    <object-name>vitreD</object-name>
-  </animation>
-
-  <animation>
     <type>material</type>
     <object-name>fuselage</object-name>
     <object-name>ailes</object-name>
@@ -136,6 +116,47 @@
 -->
   </animation>
 
+  <effect>
+    <inherits-from>Aircraft/Skyvan/Models/Effects/Skyvanreflect</inherits-from>
+    <object-name>fuselage</object-name>
+    <object-name>ailes</object-name>
+    <object-name>derive</object-name>
+    <object-name>derive2</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>voletG</object-name>
+    <object-name>voletD</object-name>
+    <object-name>support</object-name>
+    <object-name>profondeur</object-name>
+    <object-name>directionG</object-name>
+    <object-name>directionD</object-name>
+    <object-name>moteurs</object-name>
+    <object-name>barres</object-name>
+    <object-name>baie</object-name>
+    <object-name>porteG</object-name>
+    <object-name>porteD</object-name>
+  </effect>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitres</object-name>
+    <object-name>vitreG</object-name>
+    <object-name>vitreD</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>vitres</object-name>
+    <object-name>propdiscG</object-name>
+    <object-name>propblurG</object-name>
+    <object-name>propdiscD</object-name>
+    <object-name>propblurD</object-name>
+    <object-name>vitreG</object-name>
+    <object-name>vitreD</object-name>
+  </animation>
+
   <!-- Une ombre pour OSG -->
   <model>
     <name>shadowOSG</name>
@@ -157,12 +178,12 @@
   <model>
     <path>Aircraft/Skyvan/Models/Interior/interior.xml</path>
     <offsets>
-      <x-m> 0.0 </x-m>
-      <y-m> 0.0 </y-m>
-      <z-m> 0.0 </z-m>
-      <roll-deg>    0.0 </roll-deg>
-      <pitch-deg>   0.0 </pitch-deg>
-      <heading-deg> 0.0 </heading-deg>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -170,12 +191,12 @@
   <model>
     <path>Aircraft/Skyvan/Models/Immat/immat.xml</path>
     <offsets>
-      <x-m> 0.0 </x-m>
-      <y-m> 0.0 </y-m>
-      <z-m> 0.0 </z-m>
-      <roll-deg>    0.0 </roll-deg>
-      <pitch-deg>   0.0 </pitch-deg>
-      <heading-deg> 0.0 </heading-deg>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -247,9 +268,9 @@
       <z-m>  0.545 </z-m>
     </center>
     <axis>
-      <x> 1.000 </x>
-      <y> 0.000 </y>
-      <z> 0.000 </z>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -304,9 +325,9 @@
       <z-m>  0.545 </z-m>
     </center>
     <axis>
-      <x> 1.000 </x>
-      <y> 0.000 </y>
-      <z> 0.000 </z>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
@@ -315,7 +336,7 @@
     <type>rotate</type>
     <object-name>aileronG</object-name>
     <property>surface-positions/left-aileron-pos-norm</property>
-    <factor>-25.0</factor>
+    <factor> -25 </factor>
     <axis>
       <x1-m> -0.608 </x1-m>
       <y1-m> -6.813 </y1-m>
@@ -330,7 +351,7 @@
     <type>rotate</type>
     <object-name>aileronD</object-name>
     <property>surface-positions/right-aileron-pos-norm</property>
-    <factor>-25.0</factor>
+    <factor> -25 </factor>
     <axis>
       <x1-m> -0.608 </x1-m>
       <y1-m>  9.731 </y1-m>
@@ -346,7 +367,7 @@
     <type>rotate</type>
     <object-name>voletG</object-name>
     <property>surface-positions/flap-pos-norm</property>
-    <factor>-35.0</factor>
+    <factor> -35 </factor>
     <axis>
       <x1-m> -0.608 </x1-m>
       <y1-m> -1.163 </y1-m>
@@ -361,7 +382,7 @@
     <type>rotate</type>
     <object-name>voletD</object-name>
     <property>surface-positions/flap-pos-norm</property>
-    <factor>-35.0</factor>
+    <factor> -35 </factor>
     <axis>
       <x1-m> -0.608 </x1-m>
       <y1-m>  6.813 </y1-m>
@@ -377,16 +398,16 @@
     <type>rotate</type>
     <object-name>profondeur</object-name>
     <property>surface-positions/elevator-pos-norm</property>
-    <factor>25.0</factor>
+    <factor> 25 </factor>
     <center>
       <x-m> 5.541 </x-m>
       <y-m> 0.000 </y-m>
       <z-m> 0.120 </z-m>
     </center>
     <axis>
-      <x>  0.00 </x>
-      <y>  1.00 </y> 
-      <z>  0.00 </z>
+      <x>  0 </x>
+      <y>  1 </y> 
+      <z>  0 </z>
     </axis>
   </animation>
 
@@ -395,16 +416,16 @@
     <type>rotate</type>
     <object-name>directionG</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor>25.0</factor>
+    <factor> 25 </factor>
     <center>
       <x-m>  5.372 </x-m>
       <y-m> -3.047 </y-m>
       <z-m>  1.277 </z-m>
     </center>
     <axis>
-      <x>  0.00 </x>
-      <y>  0.00 </y>
-      <z> -1.00 </z>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
     </axis>
   </animation>
   
@@ -412,16 +433,16 @@
     <type>rotate</type>
     <object-name>directionD</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor>25.0</factor>
+    <factor> 25 </factor>
     <center>
       <x-m>  5.372 </x-m>
       <y-m>  3.047 </y-m>
       <z-m>  1.277 </z-m>
     </center>
     <axis>
-      <x>  0.00 </x>
-      <y>  0.00 </y>
-      <z> -1.00 </z>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
     </axis>
   </animation>
   
@@ -436,16 +457,16 @@
     <type>rotate</type>
     <object-name>RoueAvant</object-name>
     <property>controls/flight/rudder</property>
-    <factor> 40.0 </factor>
+    <factor> 40 </factor>
     <center>
       <x-m> -5.470 </x-m>
       <y-m>  0.000 </y-m>
       <z-m> -1.967 </z-m>
     </center>
     <axis>
-      <x>  0.000 </x>
-      <y>  0.000 </y>
-      <z> -1.000 </z>
+      <x>  0 </x>
+      <y>  0 </y>
+      <z> -1 </z>
     </axis>
   </animation>
 
@@ -461,9 +482,9 @@
       <z-m> -1.967 </z-m>
     </center>
     <axis>
-      <x>  0.000 </x>
-      <y> -1.000 </y>
-      <z>  0.000 </z>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
     </axis>
   </animation>
 
@@ -478,9 +499,9 @@
       <z-m> -1.903 </z-m>
     </center>
     <axis>
-      <x>  0.000 </x>
-      <y> -1.000 </y>
-      <z>  0.000 </z>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
     </axis>
   </animation>
 
@@ -495,9 +516,9 @@
       <z-m> -1.903 </z-m>
     </center>
     <axis>
-      <x>  0.000 </x>
-      <y> -1.000 </y>
-      <z>  0.000 </z>
+      <x>  0 </x>
+      <y> -1 </y>
+      <z>  0 </z>
     </axis>
   </animation>
 
@@ -525,9 +546,9 @@
       <z-m> -0.302 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 0.000 </y>
-      <z> 1.000 </z>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
     </axis>
   </animation>
 
@@ -542,9 +563,9 @@
       <z-m> -0.302 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 0.000 </y>
-      <z> 1.000 </z>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
     </axis>
   </animation>
 
@@ -553,7 +574,7 @@
     <type>rotate</type>
     <object-name>baie</object-name>
     <property>instrumentation/doors/passenger/position-norm</property>
-    <factor>27</factor>
+    <factor> 27 </factor>
     <center>
       <x-m>  5.371 </x-m>
       <y-m>  0.000 </y-m>

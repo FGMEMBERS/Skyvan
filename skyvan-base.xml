@@ -59,7 +59,7 @@
   </sim>
 
   <input>
-      <keyboard include="Nasal/skyvan-keyboard.xml"/>
+    <keyboard include="Nasal/skyvan-keyboard.xml"/>
   </input>
 
   <controls>
