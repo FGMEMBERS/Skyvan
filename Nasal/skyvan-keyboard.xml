@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
-   <key n="68">
+  <key n="68">
     <name>D</name>
     <desc>bay</desc>
     <binding>
      <command>nasal</command>
-     <script>skyvan.doorsystem.passengerexport();</script>
+     <script>doors.passenger.toggle();</script>
     </binding>
-   </key>
+  </key>
 
-   <key n="100">
+  <key n="100">
     <name>d</name>
     <desc>Canopy</desc>
     <binding>
      <command>nasal</command>
-     <script>skyvan.doorsystem.crewexport();</script>
+     <script>doors.crew.toggle();</script>
     </binding>
-   </key>
+  </key>
 
 </PropertyList>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -39,9 +39,6 @@
       <x-m> -4.514 </x-m>
       <y-m> -0.500 </y-m>
       <z-m> -0.470 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
@@ -56,9 +53,24 @@
   </model>
 
   <animation>
+    <type>pick</type>
+    <object-name>intvitreG</object-name>
+    <object-name>intvitreD</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
     <type>rotate</type>
     <object-name>intvitreG</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>/sim/multiplay/generic/float[0]</property>
     <factor> 175 </factor>
     <center>
       <x-m> -3.933 </x-m>
@@ -75,7 +87,7 @@
   <animation>
     <type>rotate</type>
     <object-name>intvitreD</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>/sim/multiplay/generic/float[0]</property>
     <factor> -175 </factor>
     <center>
       <x-m> -3.933 </x-m>
@@ -90,4 +102,3 @@
   </animation>
 
 </PropertyList>
-
