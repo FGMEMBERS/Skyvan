@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+    <object-name>fondimat</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ai -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.300 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.300 </y-m>
+      <z-m> 0.117 </z-m>
+    </offsets>
+  </model>
+
+  <!-- alt -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.387 </y-m>
+      <z-m> 0.117 </z-m>
+    </offsets>
+  </model>
+
+  <!-- asi -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.387 </y-m>
+      <z-m>  0.117 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.208 </y-m>
+      <z-m> 0.117 </z-m>
+    </offsets>
+  </model>
+
+  <!-- vsi -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.208 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.387 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ki 206 -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.387 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/ki206/ki206.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.208 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+
+  <!-- hdg -->
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/hdg/hdg.xml</path>
+    <offsets>
+      <x-m>  0.091 </x-m>
+      <y-m> -0.300 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Skyvan/Models/Interior/Panel/Instruments/hdg/hdg.xml</path>
+    <offsets>
+      <x-m> 0.091 </x-m>
+      <y-m> 0.300 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
