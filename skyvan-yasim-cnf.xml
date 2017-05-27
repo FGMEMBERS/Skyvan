@@ -9,6 +9,19 @@
     <flight-model>yasim</flight-model>
     <aero>skyvan-yasim</aero>
 
+    <tags>
+     <tag>cargo</tag>
+      <tag>short</tag>
+      <tag>high-wing</tag>
+      <tag>tricycle</tag>
+      <tag>fixed-gear</tag>
+      <tag>twin-engine</tag>
+      <tag>turboprop</tag>
+      <tag>h-tail</tag>
+      <tag>propeller</tag>
+      <tag>1960s</tag>
+    </tags>
+
   </sim>
     
 </PropertyList>
