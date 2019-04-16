@@ -104,6 +104,11 @@
                  power cruise      : 715 hp
                  weight            :    336 lb  (153 kg)
   -->
+      <!-- 
+    	http://www.canadianflight.org/content/garrett-tpe331
+			max RPM - 2,000
+			Bruce McL, April 2019
+  -->   
   <propeller x="2.116" y="2.628" z="0.578"
              mass="336" 
              moment="253.72" 
@@ -117,7 +122,7 @@
              <actionpt x="2.857" y="2.628" z="0.545"/>
              <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE"/>
              <turbine-engine eng-power="715" 
-                             eng-rpm="2700" 
+                             eng-rpm="2000" 
                              alt="8000" 
                              flat-rating="700" 
                              min-n2="70" 
@@ -142,7 +147,7 @@
              <actionpt x="2.857" y="-2.628" z="0.545"/>
              <control-input axis="/controls/engines/engine[1]/propeller-pitch" control="ADVANCE"/>
              <turbine-engine eng-power="715" 
-                             eng-rpm="2700" 
+                             eng-rpm="2000" 
                              alt="8000" 
                              flat-rating="700" 
                              min-n2="70" 
@@ -193,6 +198,8 @@
   <tank x="1.03" y="-2.5" z="0.57" capacity="1472"/>
 
   <!-- Mass deplacement -->
-  <ballast x="6" y="0" z="-2" mass="1000"/>
-
+  <ballast x="6" y="0" z="0.8" mass="1000"/>
+  <ballast x="1" y="8.0" z="0.8" mass="1000"/>
+  <ballast x="1" y="-8.0" z="0.8" mass="1000"/>
+     
 </airplane>
